@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navbar Toggler</title>
+<!-- Include Font Awesome CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+  /* Styling for the navbar */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+  }
+  /* Styling for the toggler icon */
+  .navbar-toggler {
+    display: inline-block;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <!-- Font Awesome bars icon -->
+  <span class="navbar-toggler" onclick="toggleNavbar()"><i class="fas fa-bars"></i></span>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</div>
+
+<script>
+function toggleNavbar() {
+  var togglerIcon = document.querySelector('.navbar-toggler i');
+  
+  // Toggle Font Awesome icons
+  togglerIcon.classList.toggle('fa-bars');
+  togglerIcon.classList.toggle('fa-times');
+}
+</script>
+
+</body>
+</html>
