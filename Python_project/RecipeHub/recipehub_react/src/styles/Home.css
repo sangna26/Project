@@ -1,0 +1,177 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f3e9; /* Light background for the whole page */
+}
+
+/* Home Page Container */
+.home-page {
+  background-color: #f6f3e9; /* Light background for the home page */
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url('../assets/images/Home11.png');
+  background-color: rgba(255, 255, 255, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #4e0000; /* Theme color */
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #f76c3a; /* Theme color */
+}
+
+.cta-button {
+  background: #4e0000; /* Theme color */
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #f76c3a; /* Theme color */
+  transform: scale(1.05);
+}
+
+/* Special Offers */
+.special-offers {
+  padding: 2rem;
+  background-color: #fff3e0;
+  text-align: center;
+}
+
+.offer {
+  background: #ffeb3b;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+/* User Review */
+.review-section {
+  padding: 2rem;
+  background-color: #fff3e0;
+  text-align: center;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 2rem;
+  background-color: #f0f4f8;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #555;
+}
+
+.testimonial-card h4 {
+  margin-top: 10px;
+  color: #4e0000; /* Theme color */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .hero-section {
+    padding: 80px 15px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5em;
+  }
+
+  .hero-section p {
+    font-size: 1.4em;
+  }
+
+  .cta-button {
+    padding: 12px 24px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 60px 10px;
+  }
+
+  .hero-section h1 {
+    font-size: 2em;
+  }
+
+  .hero-section p {
+    font-size: 1.1em;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 0.85em;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 40px 5px;
+  }
+
+  .hero-section h1 {
+    font-size: 1.8em;
+  }
+
+  .hero-section p {
+    font-size: 1em;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+    font-size: 0.8em;
+  }
+
+  .offer {
+    padding: 15px;
+    font-size: 0.9em;
+  }
+
+  .review-section h1 {
+    font-size: 1.8em;
+  }
+
+  .testimonial-card {
+    padding: 15px;
+    font-size: 0.9em;
+  }
+}

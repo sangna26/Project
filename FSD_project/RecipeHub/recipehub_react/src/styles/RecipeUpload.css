@@ -1,0 +1,94 @@
+/* RecipeUpload.css */
+/* .upload-div {
+  /* background-image: url('../assets/images/upload3.png'); */
+
+
+.recipe-upload-form {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #f76c3a; /* Changed border color */
+  border-radius: 8px;
+  background-color: rgba(242, 232, 198, 0.5); /* Changed background color with theme color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formtitle{
+  font-weight: bold;
+  color: #4e0000;
+  font-size: 2.5rem;
+  text-align: center;
+}
+/* Style for the table form */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+table td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+table label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4e0000; /* Updated text color */
+}
+
+table .inputfield {
+  width: 785px;
+  padding: 8px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style for the textarea */
+table .inputfield[type="textarea"] {
+  height: 80px;
+}
+
+/* Style for the select input */
+table select {
+  height: 40px;
+}
+
+/* Button styles */
+.upload-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f76c3a; /* Updated button background color */
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.upload-button:hover {
+  background-color: #4e0000; /* Updated hover color */
+}
+
+/* Success and error messages */
+.success-message,
+.error-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.success-message {
+  color: green;
+}
+
+.error-message {
+  color: red;
+}
+

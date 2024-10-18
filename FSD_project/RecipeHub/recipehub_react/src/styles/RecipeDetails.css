@@ -1,0 +1,71 @@
+/* RecipeDetails.css */
+.recipe-details {
+  padding: 2rem;
+  background-color: #f6f3e9; /* Changed background color to theme color */
+  border: 1px solid #f76c3a; /* Updated border color to theme color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+}
+
+.recipe-title {
+  font-size: 2rem;
+  color: #4e0000; /* Updated title color to theme color */
+  margin-bottom: 1rem;
+}
+
+
+.recipe-description {
+  font-size: 1.2rem;
+  color: #4e0000; /* Updated description color to theme color */
+  margin-bottom: 1rem;
+}
+
+.recipe-ingredients,
+.recipe-instructions {
+  margin-bottom: 1rem;
+}
+
+.recipe-ingredients li,
+.recipe-instructions li {
+  font-size: 1rem;
+  color: #4e0000; /* Updated list item color to theme color */
+  margin-bottom: 0.5rem;
+}
+
+
+table {
+  width: auto;
+}
+
+.details-column {
+  width: 40%; /* Adjust this value as needed */
+  padding-right: 20px;
+  vertical-align: top;
+}
+
+.photo-column {
+  width: 40%; /* Adjust this value as needed */
+  padding-right: 0%;
+}
+
+.photo-column img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #4e0000; /* Theme color */
+}
+
+ul, ol {
+  padding-left: 20px;
+  color: #333;
+}
+
+p {
+  color: #555;
+  margin-bottom: 20px;
+}

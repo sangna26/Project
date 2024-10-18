@@ -1,0 +1,135 @@
+/* Blog.css */
+
+.blogs-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .blog-container {
+    display: flex;
+    position: sticky;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f8f6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(0.9);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; 
+    opacity: 0;
+  }
+  
+  .blog-container.blog-left {
+    transform: translateX(-100%);
+    justify-content: flex-start;
+  }
+  
+  .blog-container.blog-right {
+    transform: translateX(100%);
+    justify-content: flex-end;
+  }
+  
+  .blog-container.visible {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  .blog-content {
+    flex: 2;
+    padding-right: 20px;
+  }
+  
+  .blog-content h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    position: relative;
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+  .blog-content p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .blog-content p strong {
+    color: #007bff; /* Highlight color */
+    background-color: #e0f7ff; /* Optional background highlight */
+    padding: 0 0.2rem;
+    border-radius: 3px;
+  }
+  
+  .sign-in-btn {
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .sign-in-btn:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+  }
+  
+  @media (min-width: 768px) {
+    .button-36 {
+      padding: 0 2.6rem;
+    }
+  }
+  
+  .blog-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blog-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Keyframes for animations */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,94 @@
+/* Navbar.css */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #F2E8C6; /* Light cream background color */
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 2.5rem;
+  color: #4e0000; /* Dark red for the logo */
+  text-decoration: none;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-item {
+  margin: 0;
+}
+
+.navbar-link {
+  color: #4e0000; /* Dark red text for links */
+  text-decoration: none;
+  font-size: 1.26rem;
+  font-weight: bold;
+}
+
+.navbar-link:hover {
+  color: #f76c3a; /* Orange on hover */
+}
+
+.navbar-auth {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-login, .navbar-button {
+  padding: 0.5rem 1rem;
+  background-color: #f76c3a; /* Orange for the button */
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-left: auto; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+.navbar-login:hover, .navbar-user-button:hover {
+  background-color: #e65c2f; /* Darker orange on hover */
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Align to the right */
+}
+
+.user-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4e0000; /* Dark red background for the profile photo */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.user-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}

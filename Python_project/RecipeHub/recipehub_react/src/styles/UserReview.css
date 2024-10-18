@@ -1,0 +1,43 @@
+/* src/UserReview.css */
+.review {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.review-card {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quote-mark {
+  font-size: 90px;
+  color: #00796b;
+  position: absolute;
+  top: -5px;
+  left: 20px;
+}
+
+.review-text {
+  font-size: 16px;
+  color: #004d40;
+  margin: 20px 0;
+}
+
+.reviewer-info {
+  margin-top: 20px;
+}
+
+.reviewer-name {
+  font-weight: bold;
+  color: #004d40;
+}
+
+.reviewer-title {
+  font-size: 14px;
+  color: #00796b;
+}

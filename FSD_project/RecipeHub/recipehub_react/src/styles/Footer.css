@@ -1,0 +1,78 @@
+/* src/Footer.css */
+.footer {
+  background-color: #4e0000;
+  color: #fbe8aa;
+  padding: 40px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 20px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section input,
+.footer-section button {
+  margin: 5px 0;
+  color: #f5f1e6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #f5f1e6;
+  text-decoration: none;
+}
+
+.footer-section input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.footer-section button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color:#F2E8C6;
+  color: #4e0000;
+  cursor: pointer;
+}
+
+.footer-social {
+  margin: 20px 0;
+}
+
+.footer-social a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.9em;
+  width: 100%;
+  text-align: center;
+  color: #f5f1e6;
+}

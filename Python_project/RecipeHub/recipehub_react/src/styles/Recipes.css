@@ -1,0 +1,75 @@
+.recipes {
+  padding: 2rem;
+  background-color: #f6f3e9; /* Light cream background color */
+}
+
+.recipes h1 {
+  text-align: center;
+  color: #4e0000; /* Dark red color for headings */
+  margin-bottom: 2rem;
+}
+
+.recipe-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  border-radius: 10%;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f6f3e9;
+}
+
+.filter-button {
+  padding: 10px 20px;
+  border: 2px solid #f76c3a;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #4e0000;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-button.selected {
+  background-color: #4e0000;
+  color: white;
+}
+
+.filter-button:hover {
+  background-color: #4e0000;
+  color: white;
+}
+
+.category-filter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.category-filter button {
+  padding: 10px 20px;
+  border: 2px solid #f76c3a;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #4e0000;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.category-filter button.active {
+  background-color: #4e0000;
+  color: white;
+}
+
+.category-filter button:hover {
+  background-color: #4e0000;
+  color: white;
+}
