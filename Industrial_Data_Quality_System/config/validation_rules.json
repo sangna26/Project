@@ -1,0 +1,24 @@
+{
+  "allowed_uom": [
+    "°C",
+    "bar",
+    "kg/hr",
+    "LPM",
+    "%",
+    "psi"
+  ],
+  "ranges": {
+    "TEMP": {
+      "min": 0,
+      "max": 300
+    },
+    "PRESS": {
+      "min": 0,
+      "max": 100
+    },
+    "FLOW": {
+      "min": 0,
+      "max": 10000
+    }
+  }
+}
